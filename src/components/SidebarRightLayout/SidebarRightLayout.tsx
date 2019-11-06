@@ -1,6 +1,6 @@
 import React, { PureComponent, Fragment } from "react";
 import { Row, Col } from "reactstrap";
-import './SidebarRightLayout.scss';
+import "./SidebarRightLayout.scss";
 
 interface SidebarRightLayoutProps {
   sidebar: JSX.Element;
@@ -47,15 +47,13 @@ class SidebarRightLayout extends PureComponent<SidebarRightLayoutProps> {
     const { sidebar, pagination, main } = this.props;
 
     return (
-        <Fragment>
+      <Fragment>
         <Row>
-            {this.renderSidebar(sidebar)}
-            {this.renderMain(main)}
+          {this.renderSidebar(sidebar)}
+          {this.renderMain(main)}
         </Row>
-        <Row>
-            {this.renderPagination(pagination)}
-        </Row>
-    </Fragment>
+        <Row>{this.renderPagination(pagination)}</Row>
+      </Fragment>
     );
   }
 }
