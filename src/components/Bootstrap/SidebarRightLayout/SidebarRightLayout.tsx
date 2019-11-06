@@ -22,7 +22,7 @@ class SidebarRightLayout extends PureComponent<SidebarRightLayoutProps> {
         sm={{ size: 12, order: 2 }}
         xs={{ size: 12, order: 2 }}
       >
-        <Row>{main}</Row>
+        {main}
       </Col>
     ) : null;
   };

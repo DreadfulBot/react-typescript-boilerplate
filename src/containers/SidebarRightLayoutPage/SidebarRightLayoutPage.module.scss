@@ -1,0 +1,24 @@
+.navbar {
+    &_top {
+        margin-bottom: 10px;
+    }
+}
+
+.block {
+    padding: 10px;
+}
+
+.main {
+    @extend .block;
+    background-color: red;
+}
+
+.pagination {
+    @extend .block;
+    background-color: black;
+}
+
+.sidebar {
+    @extend .block;
+    background-color: blueviolet;
+}
