@@ -45,3 +45,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Links
 * https://fettblog.eu/typescript-react/components/ - about components in ts
+* https://reactstrap.github.io/components/alerts/ - reactsapp components

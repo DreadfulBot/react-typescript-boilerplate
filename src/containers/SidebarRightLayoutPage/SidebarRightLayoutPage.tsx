@@ -14,11 +14,12 @@ class SidebarRightLayoutPage extends React.PureComponent<{}, {}> {
         <LargeNavbar className={styles.navbar_top} />
         <Container>
           <SidebarRightLayout
-            main={<p className={styles.main}>{constants.loremText}</p>}
-            pagination={
-              <p className={styles.pagination}>{constants.loremText}</p>
-            }
-            sidebar={<p className={styles.sidebar}>{constants.loremText}</p>}
+            main={<p>{constants.loremText}</p>}
+            mainClassName={styles.main}
+            pagination={<p>{constants.loremText}</p>}
+            paginationClassName={styles.pagination}
+            sidebar={<p>{constants.loremText}</p>}
+            sidebarClassName={styles.sidebar}
           />
         </Container>
       </Fragment>
